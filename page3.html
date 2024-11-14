@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 3 - My Multi-Page Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+        <h1>Page 3</h1>
+        <img src="image3.png" alt="Page 3 Image">
+        <p>Complete the tasks below:</p>
+        
+        <div class="task">
+            <h2>Task 1: Check the Boxes</h2>
+            <div>
+                <input type="checkbox" id="checkbox1">
+                <label for="checkbox1">Option 1</label>
+            </div>
+            <div>
+                <input type="checkbox" id="checkbox2">
+                <label for="checkbox2">Option 2</label>
+            </div>
+            <div>
+                <input type="checkbox" id="checkbox3">
+                <label for="checkbox3">Option 3</label>
+            </div>
+        </div>
+
+        <div class="task">
+            <h2>Task 2: Slide the Range</h2>
+            <input type="range" id="slider" min="0" max="100" value="0">
+            <p>Value: <span id="sliderValue">0</span></p>
+        </div>
+
+        <div id="taskStatus"></div>
+
+        <button id="completeBtn" style="display: none;">Complete All Tasks</button>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
